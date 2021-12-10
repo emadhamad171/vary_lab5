@@ -1,0 +1,52 @@
+.hole {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background-color: sandybrown;
+    width: 75px;
+    height: 75px;
+    flex: 0 1 calc(20% - 8px);
+    flex-wrap: wrap;
+}
+.wrapper{
+    width: 600px;
+    background-color: saddlebrown;
+    display: flex;
+    align-items: center;
+
+}
+.collect{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 35px;
+    background-color: sandybrown;
+    width: 75px;
+    height: 100px;
+    flex: 0 1 calc(20% - 8px);
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.seed{
+    width: 5px;
+    height: 5px;
+    background-color: dodgerblue;
+    border-radius: 100px;
+    margin: 1px;
+}
+.board-container{
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.bot-board{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.user-board{
+    display: flex;
+
+}
